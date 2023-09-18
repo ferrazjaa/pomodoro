@@ -1,0 +1,35 @@
+/* Arquivo para zerar os padrões  */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+    /* background-color: #ffcf7038; */
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    justify-content: space-between; /* vai deixar cada conteudo (header, main, footer) em um lugar */
+    
+
+}
+
+#back-topo{
+    background-color: green;
+    /* font-size: 2em;
+    font-weight: 300; */
+    text-decoration: none;
+    /* padding: 50px; */
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    padding: 8px;
+
+
+}
+
+#back-top:hover{
+    width: 20px;
+}

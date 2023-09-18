@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/pomodoro.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+    <!-- Link Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    
+    
+
+    
+    <!-- Link favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    
+
+
+
+    <title>Pomodoro Timer</title>
+</head>
+
+<body>
+    <header>
+        <img id="pomodoro" src="img/pomodoro1.png" alt="Imagem de um tomate com relógio dentro">
+        <h1>Técnica Pomodoro</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <!-- <li><a href="#comoFunciona">Como Funciona</a></li> -->
+                <li><a href="#ative">Pomodoro</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="explicacao" id="about">
+            <div class="item" id="sobre">
+                <h2>Sobre</h2>
+                <p>
+                    A técnica Pomodoro, criada pelo italiano Francesco Cirillo na década de 80, é utilizada para
+                    otimizar a produtividade e a aprimorar a gestão de tempo. Consiste em dividir o trabalho em
+                    intervalos de tempo
+                    curtos, geralmente 25 minutos, chamados de 'pomodoros', seguidos de breves pausas.</p>
+                <p>
+                    Essa estratégia de divisão do trabalho em intervalos tem como principal objetivo manter a
+                    concentração e minimizar distrações, promovendo um ambiente mais focado e eficiente.
+                </p>
+                <p>
+                    A escolha do nome Pomodoro, que significa 'tomate' em italiano, deve-se ao fato de o cronômetro
+                    utilizado por Francesco Cirillo ter a forma de um tomate.</p>
+            </div>
+
+            <div class="item" id="comoFunciona">
+                <h2>Passo a Passo</h2>
+                <ol>
+                    <li>Escolha a tarefa que realizará;</li>
+                    <li>Inicie o temporizador;</li>
+                    <li>Foque na tarefa durante os 25 minutos;</li>
+                    <li>Faça uma pausa de no máximo 5 minutos para relaxar</li>
+                    <li>Retorne à tarefa;</li>
+                    <li>Faça esse ciclo de 25 minutos com 5 minutos de pausa por 4 vezes;</li>
+                    <li>Após concluir quatro pomodoros consecutivos, faça uma pausa maior de 15-30 minutos. </li>
+                </ol>
+
+        </section>
+
+        <section id="ative" class="ative">
+            <h2>Pomodoro </h2>
+
+            <!-- div para inputs dos minutos e segundos -->
+            <div class="container-componentes">
+                <!-- adicionando os minutos -->
+                <div class="componentes">
+                    <label for="minute">Minutos</label>
+                    <input type="number" name="" id="minute" value="25" max="120" min="0">
+                </div>
+                 <!-- adicionando os segundos -->
+                 <div class="componentes">
+                    <label for="second">Segundos</label>
+                    <input type="number" name="" id="second" value="00" max="59" min="0">
+                </div>
+            </div>
+
+            <!-- numero de ciclos pomodoros completos  -->
+            <p id="cycles"></p>
+            <h3 class= "timer" id="timer">25 : 00</h3>
+
+            <!-- botões iniciar e zerar pomodoro -->
+            <div class="btn">
+                <button id="btn-start" title="Inicia o pomodoro">Começar</button>
+                <button id="btn-reset" title="Zera o pomodoro">Zerar</button>
+                
+
+
+            </div>
+
+            <h4 id="breve-pausa" class="breve-pausa">Breve Pausa 05 : 00</h4>
+            <button id="btn-pausa" title="Inicia a brevePausa">Pausa</button>
+                
+            <a id="back-topo" href="#pomodoro">🔺</a>
+            
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="referencias">
+            <h2>Referências</h2>
+            <ul>
+                <li><a href="https://youtu.be/StKqtls2Mz4?si=JFDFCg5qHfGUk075" target="_blank" rel="noopener noreferrer">Temporizador (timer) em JavaScript por Gustavo Caetano (youtube)</a></li>
+                <li><a href="https://www.w3schools.com/howto/howto_js_countdown.asp" target="_blank" rel="noopener noreferrer">Countdown - W3Schools</a></li>
+                <li><a href="https://youtu.be/msyTjg3t4Z8?si=-jts9BW33ezaFTMl" target="_blank" rel="noopener noreferrer">Criando um cronômetro com JavaScript por Leo Ujo (youtube)</a></li>
+                <li><a href="https://ufsb.edu.br/proaf/proaf/dace/cqv/setor-de-promocao-a-saude-estudantil/acao-bem-estar/tecnica-pomodoro-voce-sabe-o-que-e-isso" target="_blank">Técnica pomodoro você sabe o que é isso</a></li>
+                <li><a href="https://www.bbc.com/portuguese/geral-55563393" target="_blank" rel="noopener noreferrer">O que é o 'Método Pomodoro' de gestão de tempo que conquistou fãs ao redor do mundo por melhorar produtividade</a></li>
+                <li><a href="" target="_blank" rel="noopener noreferrer">Método Pomodoro de estudo: saiba como essa técnica ajuda estudantes a criar rotina de estudos</a></li>
+               
+            </ul>
+        </div>
+        <span>&copy Todos os direitos reservados. Desenvolvido por Jéssica Ferraz, 2023.</span>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="pausa.js"></script>
+</body>
+
+</html>

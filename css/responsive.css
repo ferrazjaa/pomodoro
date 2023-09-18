@@ -1,0 +1,140 @@
+@media (max-width:1009px){
+    header h1{
+        font-size: 2.5em;
+        margin-top:3%;
+    }
+
+    .container-componentes{
+        width:75%;
+    }
+
+}
+
+@media (max-width:707px){
+    header h1{
+        font-size:2em;
+
+    }
+
+    #pomodoro{
+        max-width: 70px;
+
+    }
+
+    .explicação h2{
+        font-size: 1.5em;
+
+    }
+}
+
+@media (max-width:669px){
+    
+    header{
+        background-color: antiquewhite;
+    }
+    main{
+        margin: 0;
+        
+    }
+
+    #pomodoro{
+        visibility: hidden;
+    }
+
+    #sobre{
+        margin:0;
+
+    }
+    .explicacao{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+       
+    }
+
+    .explicacao h2{
+        font-size: 1.8em;
+    }
+
+    .explicacao p{
+        font-size:0.9em;
+        text-indent: 1em;
+        width: 80%;
+        margin-left:10%;
+    }
+
+    .item{
+        margin: 0;
+        padding:0 ;
+        align-items: center;
+    }
+    
+    .item h2{
+        font-size: 1.8em;
+        margin: 2% 0;
+        
+
+    }
+    .item p{
+        font-size:0.9em;
+        text-indent: 1em;
+    }
+    
+    .ative{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .ative h2{
+        margin:0;
+        font-size: 1.8em;
+    }
+
+    li{
+        font-size: 0.9em;
+        text-align: center;
+        list-style-position: inside;
+       
+    }
+
+    .timer{
+        font-size: 3em;
+    }
+
+    .breve-pausa{
+        font-size: 1.6em;
+    }
+
+    footer{
+        margin:0;
+        padding:0;
+        background-color: antiquewhite;
+    }
+
+    .referencias h2{
+        padding: 5% 0 0 0;
+        margin: 0 0 2% 0;
+    }
+
+    .referencias li{
+        font-size: small;
+
+    }
+
+
+    
+    /* esconderá para voltar ao topo */
+    #back-topo{
+        visibility: hidden;
+    }
+
+
+}
+
+@media (max-width:543){
+   header h1{
+        margin:1%;
+        font-size: 1em;
+    }
+}
