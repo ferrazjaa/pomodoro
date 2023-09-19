@@ -30,6 +30,6 @@ main{
 
 }
 
-#back-top:hover{
-    width: 20px;
+#back-topo:hover{
+    transform: scale(1.3);
 }

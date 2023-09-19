@@ -1,6 +1,7 @@
 header {
    
-    background-color: #cc333333;
+    /* background-color: #cc333333; */
+    background-color: #ff520d75;
     /* alinha os itens ao longo do eixo x */
     justify-content: space-between;
 
@@ -37,18 +38,23 @@ nav ul{
 
 nav li {
     list-style: none;
-    padding: 1% 5%;
+    padding: 1% 7%;
     font-size:1.2em;
-    box-shadow: white;
+    
     
 }
 
 nav li:hover{
-    color: white;
+    border-radius: 35%;
     background-color: red;
-    border-radius: 5%;
+    transform: scale(1.2);
     
-    width:60px;
+    
+}
+
+nav a:hover{
+    color: white;
+    font-weight: 200;
 }
 
 nav a{

@@ -2,7 +2,8 @@
     text-align: center;
     margin:auto;
     width: 80%;
-    background-color: antiquewhite; 
+    background-color:#ff7f4c75;
+    ; 
     padding-bottom: 5%;
 }
 
@@ -60,6 +61,7 @@ button{
 
 button:hover{
     background-color: green;
+    transform: scale(1.2);
     /* transition: ease-in-out; */
 }
 
