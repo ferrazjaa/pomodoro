@@ -18,6 +18,10 @@ header {
     margin-left: 3%;
 } 
 
+#burguer{
+    visibility: hidden;
+}
+
 header h1 {
     text-align: center;
     font-size: 4em;
