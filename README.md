@@ -5,7 +5,7 @@
 ## Estrutura
 - De onde veio o metódo;
 - Passo a passo do metódo pomodoro;
-- Temporizador pré-definido em 25 min
+- Temporizador predefinido em 25 min
   - Opção de escolher outro valor de tempo
 - Temporizador definido de 5 minutos de descanso
 
