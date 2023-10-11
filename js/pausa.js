@@ -1,5 +1,6 @@
 // Variável para armazenar o intervalo do countdown
 const btnPausa = document.getElementById('btn-pausa');
+const btnResetPausa = document.getElementById('btn-reset-pausa');
 
 
 btnPausa.addEventListener('click', () => {
@@ -30,3 +31,16 @@ const pausaTimer = (duration, display) => {
         timer--;
     }, 1000);
 };
+
+
+// BOTÃO ZERAR////////////////////////////////////////////////////////////////////////////////////////////////////////////
+btnResetPausa.addEventListener('click', () => {
+
+    // para o intervalo
+      clearInterval(interval);
+      //reinicia o countdown
+    document.getElementById('breve-pausa').innerHTML = 'Breve Pausa 05 : 00';
+  
+ 
+  });
+  
